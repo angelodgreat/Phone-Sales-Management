@@ -22,9 +22,9 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim TableViewDefinition3 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition1 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        Dim TableViewDefinition4 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition2 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Me.RadPageViewPage5 = New Telerik.WinControls.UI.RadPageViewPage()
         Me.RadPageViewPage4 = New Telerik.WinControls.UI.RadPageViewPage()
         Me.RadPageViewPage3 = New Telerik.WinControls.UI.RadPageViewPage()
@@ -52,7 +52,7 @@ Partial Class Main
         '
         'RadPageViewPage5
         '
-        Me.RadPageViewPage5.ItemSize = New System.Drawing.SizeF(161.0!, 26.0!)
+        Me.RadPageViewPage5.ItemSize = New System.Drawing.SizeF(115.0!, 60.0!)
         Me.RadPageViewPage5.Location = New System.Drawing.Point(205, 4)
         Me.RadPageViewPage5.Name = "RadPageViewPage5"
         Me.RadPageViewPage5.Size = New System.Drawing.Size(1174, 574)
@@ -60,7 +60,7 @@ Partial Class Main
         '
         'RadPageViewPage4
         '
-        Me.RadPageViewPage4.ItemSize = New System.Drawing.SizeF(161.0!, 26.0!)
+        Me.RadPageViewPage4.ItemSize = New System.Drawing.SizeF(115.0!, 60.0!)
         Me.RadPageViewPage4.Location = New System.Drawing.Point(205, 4)
         Me.RadPageViewPage4.Name = "RadPageViewPage4"
         Me.RadPageViewPage4.Size = New System.Drawing.Size(1174, 574)
@@ -68,19 +68,19 @@ Partial Class Main
         '
         'RadPageViewPage3
         '
-        Me.RadPageViewPage3.ItemSize = New System.Drawing.SizeF(161.0!, 26.0!)
-        Me.RadPageViewPage3.Location = New System.Drawing.Point(205, 4)
+        Me.RadPageViewPage3.ItemSize = New System.Drawing.SizeF(115.0!, 60.0!)
+        Me.RadPageViewPage3.Location = New System.Drawing.Point(5, 62)
         Me.RadPageViewPage3.Name = "RadPageViewPage3"
-        Me.RadPageViewPage3.Size = New System.Drawing.Size(1174, 574)
+        Me.RadPageViewPage3.Size = New System.Drawing.Size(1373, 515)
         Me.RadPageViewPage3.Text = "RadPageViewPage3"
         '
         'RadPageViewPage2
         '
         Me.RadPageViewPage2.Controls.Add(Me.RadGroupBox2)
-        Me.RadPageViewPage2.ItemSize = New System.Drawing.SizeF(161.0!, 26.0!)
-        Me.RadPageViewPage2.Location = New System.Drawing.Point(205, 4)
+        Me.RadPageViewPage2.ItemSize = New System.Drawing.SizeF(115.0!, 60.0!)
+        Me.RadPageViewPage2.Location = New System.Drawing.Point(10, 69)
         Me.RadPageViewPage2.Name = "RadPageViewPage2"
-        Me.RadPageViewPage2.Size = New System.Drawing.Size(1174, 574)
+        Me.RadPageViewPage2.Size = New System.Drawing.Size(1362, 502)
         Me.RadPageViewPage2.Text = "RadPageViewPage2"
         '
         'RadGroupBox2
@@ -90,7 +90,7 @@ Partial Class Main
         Me.RadGroupBox2.HeaderText = "RadGroupBox2"
         Me.RadGroupBox2.Location = New System.Drawing.Point(3, 3)
         Me.RadGroupBox2.Name = "RadGroupBox2"
-        Me.RadGroupBox2.Size = New System.Drawing.Size(1168, 285)
+        Me.RadGroupBox2.Size = New System.Drawing.Size(1370, 285)
         Me.RadGroupBox2.TabIndex = 1
         Me.RadGroupBox2.Text = "RadGroupBox2"
         Me.RadGroupBox2.ThemeName = "VisualStudio2012Dark"
@@ -106,10 +106,10 @@ Partial Class Main
         Me.RadGridView2.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
         Me.RadGridView2.MasterTemplate.EnableGrouping = False
         Me.RadGridView2.MasterTemplate.ShowRowHeaderColumn = False
-        Me.RadGridView2.MasterTemplate.ViewDefinition = TableViewDefinition3
+        Me.RadGridView2.MasterTemplate.ViewDefinition = TableViewDefinition1
         Me.RadGridView2.Name = "RadGridView2"
         Me.RadGridView2.ReadOnly = True
-        Me.RadGridView2.Size = New System.Drawing.Size(1164, 265)
+        Me.RadGridView2.Size = New System.Drawing.Size(1366, 265)
         Me.RadGridView2.TabIndex = 0
         Me.RadGridView2.Text = "RadGridView2"
         Me.RadGridView2.ThemeName = "VisualStudio2012Dark"
@@ -124,21 +124,20 @@ Partial Class Main
         Me.RadPageView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RadPageView1.Location = New System.Drawing.Point(0, 0)
         Me.RadPageView1.Name = "RadPageView1"
-        Me.RadPageView1.SelectedPage = Me.RadPageViewPage1
+        Me.RadPageView1.SelectedPage = Me.RadPageViewPage2
         Me.RadPageView1.Size = New System.Drawing.Size(1383, 582)
         Me.RadPageView1.TabIndex = 0
         Me.RadPageView1.Text = "RadPageView1"
         Me.RadPageView1.ThemeName = "VisualStudio2012Dark"
-        Me.RadPageView1.ViewMode = Telerik.WinControls.UI.PageViewMode.Backstage
         '
         'RadPageViewPage1
         '
         Me.RadPageViewPage1.Controls.Add(Me.RadGroupBox1)
         Me.RadPageViewPage1.Image = CType(resources.GetObject("RadPageViewPage1.Image"), System.Drawing.Image)
-        Me.RadPageViewPage1.ItemSize = New System.Drawing.SizeF(161.0!, 58.0!)
-        Me.RadPageViewPage1.Location = New System.Drawing.Point(205, 4)
+        Me.RadPageViewPage1.ItemSize = New System.Drawing.SizeF(163.0!, 60.0!)
+        Me.RadPageViewPage1.Location = New System.Drawing.Point(10, 69)
         Me.RadPageViewPage1.Name = "RadPageViewPage1"
-        Me.RadPageViewPage1.Size = New System.Drawing.Size(1174, 574)
+        Me.RadPageViewPage1.Size = New System.Drawing.Size(1362, 502)
         Me.RadPageViewPage1.Text = "RadPageViewPage1"
         '
         'RadGroupBox1
@@ -148,7 +147,7 @@ Partial Class Main
         Me.RadGroupBox1.HeaderText = "RadGroupBox1"
         Me.RadGroupBox1.Location = New System.Drawing.Point(3, 3)
         Me.RadGroupBox1.Name = "RadGroupBox1"
-        Me.RadGroupBox1.Size = New System.Drawing.Size(1168, 285)
+        Me.RadGroupBox1.Size = New System.Drawing.Size(1367, 285)
         Me.RadGroupBox1.TabIndex = 0
         Me.RadGroupBox1.Text = "RadGroupBox1"
         Me.RadGroupBox1.ThemeName = "VisualStudio2012Dark"
@@ -164,10 +163,10 @@ Partial Class Main
         Me.RadGridView1.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
         Me.RadGridView1.MasterTemplate.EnableGrouping = False
         Me.RadGridView1.MasterTemplate.ShowRowHeaderColumn = False
-        Me.RadGridView1.MasterTemplate.ViewDefinition = TableViewDefinition4
+        Me.RadGridView1.MasterTemplate.ViewDefinition = TableViewDefinition2
         Me.RadGridView1.Name = "RadGridView1"
         Me.RadGridView1.ReadOnly = True
-        Me.RadGridView1.Size = New System.Drawing.Size(1164, 265)
+        Me.RadGridView1.Size = New System.Drawing.Size(1363, 265)
         Me.RadGridView1.TabIndex = 0
         Me.RadGridView1.Text = "RadGridView1"
         Me.RadGridView1.ThemeName = "VisualStudio2012Dark"
